@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador Freelancer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>💻 Simulador de Orçamento</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <input type="checkbox" value="800">
+      <img src="imagenss/landing-page.png" alt="Landing Page">
+      <h3>Landing Page</h3>
+      <p>R$ 800</p>
+    </div>
+
+    <div class="card">
+      <input type="checkbox" value="2500">
+      <img src="imagenss/ecommerce.png" alt="E-commerce">
+      <h3>E-commerce</h3>
+      <p>R$ 2500</p>
+    </div>
+
+    <div class="card">
+      <input type="checkbox" value="1200">
+      <img src="imagenss/api.png" alt="API">
+      <h3>Integração API</h3>
+      <p>R$ 1200</p>
+    </div>
+
+    <div class="card">
+      <input type="checkbox" value="300">
+      <img src="imagenss/manutencao.png" alt="Manutenção">
+      <h3>Manutenção</h3>
+      <p>R$ 300</p>
+    </div>
+
+  </div>
+
+  <h2>Total: R$ <span id="total">0</span></h2>
+
+  <h3>Serviços selecionados:</h3>
+  <ul id="lista"></ul>
+
+  <button onclick="limpar()">Limpar</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
